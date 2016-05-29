@@ -45,7 +45,7 @@ cacheSolve <- function(x, ...) {
 
         ## Return a matrix that is the inverse of 'x'
 }
-x <- makeMatrixCache()
+x <- makeCacheMatrix()
 x$set(matrix(1:4,2,2))
 cacheSolve(x)
 
